@@ -1,6 +1,10 @@
 const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
 const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
+<<<<<<< HEAD
 
+=======
+var facts = ["He was the last Beatle to learn to drive","He was never a vegetarian","He was a choir boy and boy scout","He hated the sound of his own voice","foo","bar"];
+>>>>>>> 77c141d9a0f28a6620963b0c266d106c949f88a6
 
 
 
@@ -12,6 +16,7 @@ for (var i = 0; i < musicians.length; i++){
   return array;
 }
 
+<<<<<<< HEAD
 function johnLennonFacts(facts) {
   const shoutedFacts = []
 
@@ -22,6 +27,16 @@ function johnLennonFacts(facts) {
   }
 
   return shoutedFacts
+=======
+function johnLennonFacts (fact){
+  
+  var i = 0;
+  while (i < fact.length){
+    facts[i] = `${facts[i]}!!!`;
+    i++;
+  }
+  return facts ;
+>>>>>>> 77c141d9a0f28a6620963b0c266d106c949f88a6
 }
 
 function iLoveTheBeatles(number){
